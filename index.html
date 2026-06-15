@@ -8,7 +8,7 @@
   <!-- google fonts import -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -89,7 +89,19 @@
         </div>
 
         <div class="es-benefits__texts es-benefits__texts--3">
+          <img src="./images/border-line-3.png"
+               alt=""
+               class="es-benefits__line es-benefits__line--3"
+               aria-hidden="true">
           <div class="es-benefits__label">
+            <img src="./images/border-1.png"
+                 alt=""
+                 class="es-benefits__border es-benefits__border--left"
+                 aria-hidden="true">
+            <img src="./images/border-2.png"
+                 alt=""
+                 class="es-benefits__border es-benefits__border--right"
+                 aria-hidden="true">
             <p class="es-benefits__name es-benefits__name--3">
               Kwas hialuronowy
             </p>
@@ -102,7 +114,19 @@
           </p>
         </div>
         <div class="es-benefits__texts es-benefits__texts--4">
+          <img src="./images/border-line-4.png"
+               alt=""
+               class="es-benefits__line es-benefits__line--4"
+               aria-hidden="true">
           <div class="es-benefits__label">
+            <img src="./images/border-1.png"
+                 alt=""
+                 class="es-benefits__border es-benefits__border--left"
+                 aria-hidden="true">
+            <img src="./images/border-2.png"
+                 alt=""
+                 class="es-benefits__border es-benefits__border--right"
+                 aria-hidden="true">
             <p class="es-benefits__name es-benefits__name--4">
               10% czysta witamina C
             </p>
@@ -128,6 +152,10 @@
             </div>
           </div>
           <div class="es-ingredients__cards">
+            <img src="./images/bg-ingr.png"
+                 alt=""
+                 class="es-ingredients__cards-bg"
+                 aria-hidden="true">
             <div class="es-ingredients__single">
               <div class="es-ingredients__icon">
                 <img src="./images/icon-1.png"
@@ -208,6 +236,14 @@
           </div>
 
           <div class="es-results__bg-right">
+            <img src="./images/results-bg.png"
+                 alt=""
+                 class="es-results__bg-img"
+                 aria-hidden="true">
+            <img src="./images/results-packshot.png"
+                 alt=""
+                 class="es-results__packshot-img"
+                 aria-hidden="true">
             <div class="es-results__effect">
               <h3 class="es-results__title">udowodniona skuteczność</h3>
               <div class="es-results__single">
@@ -278,7 +314,7 @@
           <h3 class="es-cross__title">Poznaj całą rutynę garnier vitamin C</h3>
 
           <!-- JS slider, dwa razy to samo! -->
-          <div class="swiper-cross es-cross__slider">
+          <div class="es-swiper-cross es-cross__slider">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="es-cross__product">
@@ -341,11 +377,71 @@
                      class="es-cross__link">Sprawdź</a>
                 </div>
               </div>
+              <div class="swiper-slide">
+                <div class="es-cross__product">
+                  <div class="es-cross__packshot">
+                    <a href="#5">
+                      <img src="./images/cross-5.png"
+                           alt="Krem pod oczy"
+                           class="es-cross__img">
+                    </a>
+                  </div>
+                  <p class="es-cross__text">Krem pod oczy</p>
+
+                  <a href="#5"
+                     class="es-cross__link">Sprawdź</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="es-cross__product">
+                  <div class="es-cross__packshot">
+                    <a href="#6">
+                      <img src="./images/cross-6.png"
+                           alt="Fluid rozświetlający z filtrem SPF50+ Niewidoczny "
+                           class="es-cross__img">
+                    </a>
+                  </div>
+                  <p class="es-cross__text">Fluid rozświetlający z filtrem<br>
+                    SPF50+ Niewidoczny</p>
+                  <a href="#7"
+                     class="es-cross__link">Sprawdź</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="es-cross__product">
+                  <div class="es-cross__packshot">
+                    <a href="#7">
+                      <img src="./images/cross-7.png"
+                           alt=" Maseczka na tkaninie z witaminą C "
+                           class="es-cross__img">
+                    </a>
+                  </div>
+                  <p class="es-cross__text">Maseczka na tkaninie<br>
+                    z witaminą C</p>
+                  <a href="#7"
+                     class="es-cross__link">Sprawdź</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="es-cross__product">
+                  <div class="es-cross__packshot">
+                    <a href="#8">
+                      <img src="./images/cross-8.png"
+                           alt="Żel oczyszczający z witaminą Cg "
+                           class="es-cross__img">
+                    </a>
+                  </div>
+                  <p class="es-cross__text">Żel oczyszczający <br>
+                    z witaminą Cg</p>
+                  <a href="#8"
+                     class="es-cross__link">Sprawdź</a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="swiper-cross-pagination es-cross__pagination"></div>
-          <div class="swiper-cross-button-next swiper-button-next"></div>
-          <div class="swiper-cross-button-prev swiper-button-prev"></div>
+          <div class="es-swiper-cross-pagination es-cross__pagination"></div>
+          <div class="es-swiper-cross-button-next swiper-button-next"></div>
+          <div class="es-swiper-cross-button-prev swiper-button-prev"></div>
 
           <div class="es-swiper es-cross__slider es-cross__slider--2">
             <div class="swiper-wrapper">
@@ -474,7 +570,7 @@
               </div>
             </div>
           </div>
-          <div class="es-swiper-pagination"></div>
+          <div class="es-swiper-pagination es-cross__pagination--2"></div>
           <div class="es-swiper-button-next swiper-button-next"></div>
           <div class="es-swiper-button-prev swiper-button-prev"></div>
         </div>
@@ -507,32 +603,31 @@
     </div>
     <script src="./scripts/slider.js"></script>
     <script>
-      var swiper = new Swiper(".es-swiper", {
-        loop: true,
-        autoHeight: false,
-        navigation: {
-          nextEl: ".es-swiper-button-next",
-          prevEl: ".es-swiper-button-prev",
-        },
-        pagination: {
-          el: ".es-swiper-pagination",
-          // clickable: true,
-        },
-      });
-    </script>
-    <script>
-      var swiper = new Swiper(".swiper-cross", {
-        loop: true,
-        autoHeight: false,
-        navigation: {
-          nextEl: ".swiper-cross-button-next",
-          prevEl: ".swiper-cross-button-prev",
-        },
-        pagination: {
-          el: ".swiper-cross-pagination",
-          // clickable: true,
-        },
-      });
+      (() => {
+        const swiper1 = new Swiper(".es-swiper", {
+          loop: true,
+          autoHeight: true,
+          navigation: {
+            nextEl: ".es-swiper-button-next",
+            prevEl: ".es-swiper-button-prev",
+          },
+          pagination: {
+            el: ".es-swiper-pagination",
+          },
+        });
+
+        const swiper2 = new Swiper(".es-swiper-cross", {
+          loop: true,
+          autoHeight: true,
+          navigation: {
+            nextEl: ".es-swiper-cross-button-next",
+            prevEl: ".es-swiper-cross-button-prev",
+          },
+          pagination: {
+            el: ".es-swiper-cross-pagination",
+          },
+        });
+      })();
     </script>
   </body>
 
