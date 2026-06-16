@@ -1136,18 +1136,20 @@ body {
         max-width: 30ch;
       }
 
+      &__packshot {
+        width: 65%;
+      }
+
       &__content--4 {
         display: block;
         grid-area: drop;
         position: relative;
         z-index: 99;
-        top: -14px;
+        top: 31px;
         margin-left: 120px;
       }
 
-      &__packshot {
-        width: 65%;
-      }
+
     }
 
     #es-intro__left {
@@ -1472,6 +1474,14 @@ body {
     }
   }
 
+  @media screen and (min-width: 850px) {
+    .es-intro {
+      &__content--4 {
+        top: -13px;
+      }
+    }
+  }
+
   @media screen and (min-width: 970px) {
     .es-intro {
 
@@ -1489,6 +1499,13 @@ body {
           -moz-column-gap: 36px;
           column-gap: 22px;
         }
+      }
+    }
+
+    .es-intro {
+      &__content--4 {
+        top: -70px;
+        margin-left: 20px;
       }
     }
   }
@@ -1550,6 +1567,13 @@ body {
         &--3 {
           right: 68%;
         }
+      }
+    }
+
+    .es-intro {
+      &__content--4 {
+        top: -84px;
+        margin-left: 20px;
       }
     }
   }
