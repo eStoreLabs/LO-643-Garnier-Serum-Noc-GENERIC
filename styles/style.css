@@ -515,7 +515,7 @@ body {
 }
 #es-rc.es-rc-content .es-results__single p {
   margin: 0;
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 1px;
 }
 #es-rc.es-rc-content .es-results__number {
@@ -1053,7 +1053,7 @@ body {
     height: 300px;
   }
   #es-rc.es-rc-content .es-results__effect {
-    padding: 10px 10px 10px 90px;
+    padding: 10px 10px 40px 90px;
   }
   #es-rc.es-rc-content .es-results__packshot-img {
     left: -45px;
@@ -1242,7 +1242,7 @@ body {
     width: 450px;
   }
   #es-rc.es-rc-content .es-kv__title {
-    font-size: 20px;
+    font-size: 22px;
     padding: 9px 15px;
     text-align: left;
   }
