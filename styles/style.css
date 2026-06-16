@@ -951,7 +951,7 @@ body {
     grid-area: drop;
     position: relative;
     z-index: 99;
-    top: 31px;
+    top: -30px;
     margin-left: 120px;
   }
   #es-rc.es-rc-content #es-intro__left {
@@ -1214,7 +1214,7 @@ body {
 }
 @media screen and (min-width: 850px) {
   #es-rc.es-rc-content .es-intro__content--4 {
-    top: -13px;
+    top: -60px;
   }
 }
 @media screen and (min-width: 970px) {
@@ -1233,7 +1233,7 @@ body {
     column-gap: 22px;
   }
   #es-rc.es-rc-content .es-intro__content--4 {
-    top: -70px;
+    top: -80px;
     margin-left: 20px;
   }
 }

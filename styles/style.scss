@@ -1145,7 +1145,7 @@ body {
         grid-area: drop;
         position: relative;
         z-index: 99;
-        top: 31px;
+        top: -30px;
         margin-left: 120px;
       }
 
@@ -1477,7 +1477,7 @@ body {
   @media screen and (min-width: 850px) {
     .es-intro {
       &__content--4 {
-        top: -13px;
+        top: -60px;
       }
     }
   }
@@ -1504,7 +1504,7 @@ body {
 
     .es-intro {
       &__content--4 {
-        top: -70px;
+        top: -80px;
         margin-left: 20px;
       }
     }
