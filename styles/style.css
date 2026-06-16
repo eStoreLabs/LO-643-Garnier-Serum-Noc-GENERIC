@@ -65,7 +65,7 @@ body {
   color: #000000;
   padding: 5px 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
   z-index: 4;
   padding: 5px;
@@ -201,6 +201,7 @@ body {
 }
 #es-rc.es-rc-content .es-intro__effects-container {
   position: relative;
+  max-width: 420px;
 }
 #es-rc.es-rc-content .es-intro__content--2 .es-intro__image {
   min-width: 100%;
@@ -599,7 +600,7 @@ body {
 }
 #es-rc.es-rc-content .es-cross__title {
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 800;
   padding: 16px;
   text-align: center;
@@ -812,7 +813,9 @@ body {
     bottom: 10px;
     left: 10px;
     padding: 5px 15px;
-    font-size: 14px;
+  }
+  #es-rc.es-rc-content .es-kv__title-group {
+    width: 400px;
   }
 }
 @media screen and (min-width: 500px) {
@@ -847,8 +850,12 @@ body {
   #es-rc.es-rc-content .es-kv-2 {
     padding-top: 0;
   }
+  #es-rc.es-rc-content .es-kv__title-group {
+    width: 300px;
+  }
   #es-rc.es-rc-content .es-kv__logo {
-    width: 17%;
+    width: 21%;
+    left: 10px;
   }
   #es-rc.es-rc-content .es-kv__photo--1 {
     order: 1;
@@ -929,7 +936,8 @@ body {
     position: relative;
   }
   #es-rc.es-rc-content .es-intro__content--2 .es-intro__intro-effects {
-    font-size: x-small;
+    font-size: 11px;
+    width: 94%;
   }
   #es-rc.es-rc-content .es-intro__content--3 {
     text-align: center;
@@ -1000,6 +1008,7 @@ body {
     margin-right: auto;
   }
   #es-rc.es-rc-content .es-results {
+    margin-bottom: 60px;
     position: relative;
     padding: 0;
   }
@@ -1201,6 +1210,22 @@ body {
   #es-rc.es-rc-content .es-ingredients__single {
     width: 220px;
     height: 240px;
+  }
+}
+@media screen and (min-width: 970px) {
+  #es-rc.es-rc-content .es-intro__effects-container {
+    display: flex;
+    justify-content: center;
+    max-width: none;
+  }
+  #es-rc.es-rc-content .es-intro__effects-container .es-intro__intro-effects {
+    font-size: 13px;
+    width: 100%;
+    min-width: 460px;
+    margin-left: -25px;
+    justify-content: flex-start;
+    -moz-column-gap: 36px;
+    column-gap: 22px;
   }
 }
 @media screen and (min-width: 998px) {
