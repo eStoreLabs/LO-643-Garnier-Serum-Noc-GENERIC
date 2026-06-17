@@ -52,6 +52,10 @@ body {
     box-sizing: border-box;
   }
 
+  p {
+    // margin: 0;
+  }
+
   h2,
   h3,
   h4,
@@ -271,6 +275,11 @@ body {
         text-align: center;
         position: absolute;
         top: 0;
+
+        & p {
+          margin-top: 13px;
+          margin-bottom: 13px;
+        }
       }
     }
 
@@ -459,8 +468,9 @@ body {
     }
 
     &__text {
-      line-height: 1.4em;
+      line-height: 1.2;
       font-size: 12px;
+      margin-top: 0;
       padding-top: 16px;
       text-align: center;
 
@@ -754,18 +764,42 @@ body {
     }
 
     &__img {
-      padding-left: 25px;
+      padding-left: 20px;
+
+      &--1 {
+        width: 205px;
+      }
+
+      &--2 {
+        width: 145px;
+        padding-left: 35px;
+      }
+
+      &--3 {
+        width: 200px;
+      }
+
+      &--4 {
+        width: 170px;
+      }
 
       &--5 {
         padding-left: 90px;
+        width: 190px;
+      }
+
+      &--7 {
+        width: 225px;
       }
 
       &--8 {
         padding-left: 65px;
+        width: 200px;
       }
 
       &--6 {
         padding-left: 70px;
+        width: 180px;
       }
     }
 
