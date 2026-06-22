@@ -602,33 +602,7 @@
       </div>
     </div>
     <script src="./scripts/slider.js"></script>
-    <script>
-      (() => {
-        const swiper1 = new Swiper("#es-rc .es-swiper", {
-          loop: true,
-          autoHeight: true,
-          navigation: {
-            nextEl: ".es-swiper-button-next",
-            prevEl: ".es-swiper-button-prev",
-          },
-          pagination: {
-            el: ".es-swiper-pagination",
-          },
-        });
-
-        const swiper2 = new Swiper("#es-rc .es-swiper-cross", {
-          loop: true,
-          autoHeight: true,
-          navigation: {
-            nextEl: ".es-swiper-cross-button-next",
-            prevEl: ".es-swiper-cross-button-prev",
-          },
-          pagination: {
-            el: ".es-swiper-cross-pagination",
-          },
-        });
-      })();
-    </script>
+    <script src="./scripts/sliderInit.js"></script>
   </body>
 
 </html>
